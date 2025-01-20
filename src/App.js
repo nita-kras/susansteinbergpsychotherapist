@@ -1,25 +1,40 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import './style.css';
+import Header from './components/Header';
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
+import HomePage from './components/HomePage';
+import About from './components/About';
+import Services from './components/Services';
+import Contact from './components/Contact';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div>
+        <Header />
+        <Navbar />
+        <div style={styles.mainContent}>
+          <Switch>
+            <Route exact path="/" component={HomePage} />
+            <Route path="/about" component={About} />
+            <Route path="/services" component={Services} />
+            <Route path="/contact" component={Contact} />
+          </Switch>
+        </div>
+        <Footer />
+      </div>
+    </Router>
   );
-}
+};
+
+const styles = {
+  mainContent: {
+    margin: '0 auto',
+    maxWidth: '900px',
+    padding: '20px',
+  }
+};
 
 export default App;
