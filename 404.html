@@ -8,15 +8,18 @@
     (function() {
       // Base path for GitHub Pages
       var basePath = '/susansteinbergpsychotherapist';
-      
+
       // Current path, query, and hash
       var pathname = window.location.pathname;
       var search = window.location.search;
       var hash = window.location.hash;
 
-      // If the path does not already start with the basePath, redirect
-      if (!pathname.startsWith(basePath)) {
-        var newUrl = basePath + pathname + search + hash;
+      // Remove the base path from pathname if it exists
+      var relativePath = pathname.replace(basePath, '');
+
+      // Ensure we're not in a redirect loop
+      if (!pathname.startsWith(basePath) || relativePath === '/') {
+        var newUrl = basePath + relativePath + search + hash;
         window.location.replace(newUrl);
       }
     })();
