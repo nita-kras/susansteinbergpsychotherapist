@@ -7,8 +7,7 @@ const Contact = () => {
       <div style={styles.header}>Contact</div>
 
       {/* Contact Information */}
-      <p>Email: susan@example.com</p>
-      <p>Phone: (123) 456-7890</p>
+      <p>email: sds48@icloud.com</p>
     </div>
   );
 };
