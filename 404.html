@@ -5,18 +5,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Redirecting...</title>
   <script>
-    // Redirect to the correct path preserving the query and hash
-    var pathname = window.location.pathname;
-    var search = window.location.search;
-    var hash = window.location.hash;
+    (function() {
+      // Base path for GitHub Pages
+      var basePath = '/susansteinbergpsychotherapist';
+      
+      // Current path, query, and hash
+      var pathname = window.location.pathname;
+      var search = window.location.search;
+      var hash = window.location.hash;
 
-    // Adjust the path based on your GitHub Pages deployment path
-    var newUrl = '/susansteinbergpsychotherapist' + pathname + search + hash;
-    if (window.location.pathname !== newUrl) {
-      window.location.href = newUrl;
-    }
+      // If the path does not already start with the basePath, redirect
+      if (!pathname.startsWith(basePath)) {
+        var newUrl = basePath + pathname + search + hash;
+        window.location.replace(newUrl);
+      }
+    })();
   </script>
 </head>
 <body>
+  <h1>Redirecting...</h1>
 </body>
 </html>
