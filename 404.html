@@ -5,8 +5,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Redirecting...</title>
   <script>
-    // Redirect to the root with the current path preserved for React Router
-    window.location.href = "/susansteinbergpsychotherapist" + window.location.pathname;
+    // Redirect to the correct path preserving the query and hash
+    var pathname = window.location.pathname;
+    var search = window.location.search;
+    var hash = window.location.hash;
+
+    // Adjust the path based on your GitHub Pages deployment path
+    var newUrl = '/susansteinbergpsychotherapist' + pathname + search + hash;
+    if (window.location.pathname !== newUrl) {
+      window.location.href = newUrl;
+    }
   </script>
 </head>
 <body>
