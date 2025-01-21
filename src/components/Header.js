@@ -4,8 +4,8 @@ const Header = () => {
   return (
     <header style={styles.header}>
       <img 
-        src="https://via.placeholder.com/150" 
-        alt="Susan Steinberg" 
+        src="/images/susansteinberg.jpg"  // Correct path relative to the public folder
+        alt="Susan Steinberg"
         style={styles.image} 
       />
       <h1>Susan Steinberg Psychotherapist</h1>
