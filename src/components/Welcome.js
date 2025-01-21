@@ -10,13 +10,9 @@ const Welcome = () => {
           EMDR for patients who have experienced trauma.
         </p>
         <p>I work with adults of all ages who are trying to cope with a myriad of issues:</p>
-        <ul style={styles.list}>
-          <li>Relationships, Anxiety, Depression, Illness</li>
-          <li>Acute, Chronic, or Complex Trauma (PTSD)</li>
-          <li>
-            Long-term effects of growing up with mentally dysfunctional or unwell parents
-          </li>
-        </ul>
+        <p style={styles.line}>Relationships, Anxiety, Depression, Illness</p>
+        <p style={styles.line}>Acute, Chronic, or Complex Trauma (PTSD)</p>
+        <p style={styles.line}>Long-term effects of growing up with mentally dysfunctional or unwell parents</p>
       </div>
     </div>
   );
@@ -32,11 +28,12 @@ const styles = {
     textAlign: 'left',
     maxWidth: '600px',
     margin: '0 auto',
-    lineHeight: '1.6',
+    lineHeight: '1.4',  // Smaller line spacing between paragraphs
   },
-  list: {
-    marginTop: '10px',
-    paddingLeft: '20px',
+  line: {
+    marginTop: '5px',  // Reduced margin between lines
+    fontSize: '1rem',  // Match the font size to the original
+    lineHeight: '1.4',  // Same line height for consistent spacing
   },
 };
 

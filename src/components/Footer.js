@@ -11,14 +11,15 @@ const Footer = () => {
 
 const styles = {
   footer: {
-    background: '#cceef950',
+    background: '#cceef920',
     color: '#333',
     padding: '20px 0',
     textAlign: 'center',
+    marginTop: 'auto', // Ensures the footer stays at the bottom when content is short
   },
   footerText: {
     fontSize: '0.8em',
-    color: '#90a9b2'
+    color: '#90a9b2',
   }
 };
 

@@ -2,25 +2,24 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
-import Welcome from './components/Welcome'; // Default section
-import About from './components/About'; // About section with photo
-import PracticeDescription from './components/PracticeDescription'; // Practice Description section
-import SessionDetails from './components/SessionDetails'; // Session Details section
-import Contact from './components/Contact'; // Contact section
+import Welcome from './components/Welcome'; 
+import About from './components/About';
+import PracticeDescription from './components/PracticeDescription';
+import SessionDetails from './components/SessionDetails';
+import Contact from './components/Contact';
 
 const App = () => {
   return (
-    <Router>
-<div style={{ fontFamily: 'Georgia, Times, serif' }}>
-
+    <Router basename="/susansteinbergpsychotherapist"> {/* Correct base path */}
+      <div style={styles.appContainer}>
         <header style={styles.header}>
           <h1 style={styles.name}>Susan Steinberg</h1>
           <p style={styles.subtitle}>Psychotherapist</p>
         </header>
         <Navbar />
-        <div style={{ padding: '20px' }}>
+        <div style={styles.content}>
           <Routes>
-            <Route path="/" element={<Welcome />} />
+            <Route path="/" element={<Welcome />} /> {/* Default route */}
             <Route path="/about" element={<About />} />
             <Route path="/practice-description" element={<PracticeDescription />} />
             <Route path="/session-details" element={<SessionDetails />} />
@@ -34,23 +33,31 @@ const App = () => {
 };
 
 const styles = {
+  appContainer: {
+    display: 'flex',
+    flexDirection: 'column',
+    minHeight: '100vh',
+  },
   header: {
     textAlign: 'center',
-    backgroundColor: 'transparent', // Transparent background
+    backgroundColor: 'transparent',
     padding: '30px 0px',
     marginBottom: '20px',
   },
   name: {
-    fontWeight: 'bold', // Bold font
-    color: '#333333', // Dark gray
-    margin: '0', // Remove default margins
-    fontSize: '2rem', // Adjust font size as needed
+    color: '#333333',
+    margin: '0',
+    fontSize: '2rem',
   },
   subtitle: {
-    fontWeight: '300', // Thinner font
-    color: '#71848b', // Light gray
-    margin: '0', // Remove default margins
-    fontSize: '1.2rem', // Adjust font size as needed
+    fontWeight: '300',
+    color: '#71848b',
+    margin: '0',
+    fontSize: '1.2rem',
+  },
+  content: {
+    flex: 1,
+    padding: '20px',
   },
 };
 
