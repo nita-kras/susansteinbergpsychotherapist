@@ -11,7 +11,8 @@ import Contact from './components/Contact'; // Contact section
 const App = () => {
   return (
     <Router>
-      <div style={{ fontFamily: 'Courier-Oblique' }}>
+<div style={{ fontFamily: 'Georgia, Times, serif' }}>
+
         <header style={styles.header}>
           <h1 style={styles.name}>Susan Steinberg</h1>
           <p style={styles.subtitle}>Psychotherapist</p>
