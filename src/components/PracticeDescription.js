@@ -9,13 +9,13 @@ const PracticeDescription = () => {
       {/* Additional Text Content */}
       <div style={styles.textContent}>
         <p>
-          First and foremost, I endeavour to develop a trusting relationship that will form the basis for a therapeutic alliance. It can take a while to understand a patient in order to be effective and quite some time for most clients to feel safe with the therapist. Thus at the start I will listen carefully and from time to time ask questions. You will be free to say whatever comes to your mind and I may comment when something seems pertinent. I’m flexible and vary my practice to work most effectively with each person and employ a variety of techniques.
+        First and foremost, I endeavour to develop a trusting relationship that will form the basis for a therapeutic alliance. It can take a while to understand a patient’s issues and quite some time for most clients to feel safe with the therapist. I will listen carefully and from time to time ask questions. You will be free to say whatever comes to your mind and I may comment when somethings seems pertinent. I’m flexible and vary my practice to work most effectively with each person and employ the most constructive way to help them. 
         </p>
         <p>
-          I have experience working with a mixture of patients, from those who’ve been traumatised as a result of sexual abuse and dysfunctional childhoods, to those struggling with relationships, anxiety, depression, loss, illness, identity, and the issues of living in these complicated times.
+        I have experience working with a mixture of patients from those who have  trauma issues including mental and sexual abuse, PTSD and dysfunctional childhoods, to those struggling with relationships, anxiety, ADHD, depression, loss, illness, identity, and the issues of living in these complicated times.
         </p>
         <p>
-          For people who have experienced trauma, I combine psychodynamic psychotherapy with EMDR. During each session of EMDR, I’ll work with the client to safely recall traumatic memories. Safety is paramount, and it is for that reason I don’t begin the EMDR process until the patient is ready and can tolerate recalling the memory. The primary goals during EMDR include: changing memory storage in order to process past, and present, traumatic events in order to prevent flashbacks and to work through the memories that overwhelm the mind into something they can tolerate or manage. Once memories are reprocessed, the patient can distinguish between what happened in the past and the present. It then affords the person with a choice to move on with their lives in a healthier way.
+        For clients with trauma related issues, I integrate with EMDR, which is based on the AIP Model (Adaptive Information Processing ) with psychodynamic talk therapy. Clients with Trauma are afflicted by disturbing symptoms that arise from unprocessed traumatic memories. The EMDR model of bilateral stimulation (like eye movements) facilitates the processing of the maladaptive memories that overwhelm the mind and often interrupt a person's life and the developmental process.
         </p>
       </div>
     </div>

@@ -6,36 +6,8 @@
   <title>Redirecting...</title>
   <script>
     (function() {
-      console.log("Starting redirection script...");
-
-      // Base path for the GitHub Pages deployment
-      var basePath = '/susansteinbergpsychotherapist';
-
-      // Extract pathname, search, and hash
-      var pathname = window.location.pathname;
-      var search = window.location.search;
-      var hash = window.location.hash;
-
-      console.log("Current path:", pathname);
-      console.log("Search params:", search);
-      console.log("Hash:", hash);
-
-      // If already on the correct path, don't redirect
-      if (pathname.startsWith(basePath)) {
-        console.log("Already on correct path, no redirection needed.");
-        return;
-      }
-
-      // Compute relative path
-      var relativePath = pathname === '/404.html' ? '/' : pathname;
-      console.log("Relative path:", relativePath);
-
-      // Construct new URL
-      var newUrl = basePath + relativePath + search + hash;
-      console.log("Redirecting to:", newUrl);
-
-      // Perform the redirect
-      window.location.replace(newUrl);
+      // Simply redirect to the base path
+      window.location.replace('/susansteinbergpsychotherapist');
     })();
   </script>
 </head>

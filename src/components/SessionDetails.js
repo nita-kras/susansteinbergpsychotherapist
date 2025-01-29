@@ -9,19 +9,16 @@ const SessionDetails = () => {
       {/* Session Information Text */}
       <div style={styles.textContent}>
         <p>
-          The first session will be a 1-hour assessment to understand the issues that
-          have brought you to seek therapy. This will include your family background
-          as well as a medical and mental health history.
+        The first session will be a 1 hour assessment where I’ll endeavour to understand the issues that have brought you to seek therapy and to determine the best way forward.
         </p>
         <p>
-          This session gives you the opportunity to ask me any questions you may
-          have and to determine how we might feel about working together. At the end
-          of this session, if you choose to go forward, we will discuss schedules, the
-          number of sessions you’d like to start with, and fees. In effect, it will be
-          the beginning of a therapeutic alliance.
+        This will include a your family background as well as a medical and mental health history. 
         </p>
         <p>
-          From then on, we will meet weekly.
+        It will provide the client the opportunity to ask questions and to determine how they might feel about going forward. At the end of this session, if you choose to go forward, we will discuss schedules, the number of sessions you’d like to start with and fees. In effect, it will be the beginning of a therapeutic alliance. 
+        </p>
+        <p>
+        From then on we will meet weekly for 50 minutes face to face or on Zoom.
         </p>
       </div>
 
@@ -33,6 +30,7 @@ const SessionDetails = () => {
         <p>Sessions are priced from £80.00.</p>
         <p>I have no evening or weekend sessions available.</p>
         <p>Sessions can be held Face to Face or on Zoom.</p>
+        <p>I offer concessions under extenuating circumstances.</p>
       </div>
     </div>
   );
