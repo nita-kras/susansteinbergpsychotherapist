@@ -8,6 +8,7 @@ const Contact = () => {
 
       {/* Contact Information */}
       <p>email: sds48@icloud.com</p>
+      <p>+44 7973 428177</p>
     </div>
   );
 };
