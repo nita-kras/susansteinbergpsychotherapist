@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/susansteinbergpsychotherapist/static/css/main.d225ba44.css",
-    "main.js": "/susansteinbergpsychotherapist/static/js/main.c6c11dc2.js",
-    "static/js/488.cedd0b47.chunk.js": "/susansteinbergpsychotherapist/static/js/488.cedd0b47.chunk.js",
-    "index.html": "/susansteinbergpsychotherapist/index.html",
-    "main.d225ba44.css.map": "/susansteinbergpsychotherapist/static/css/main.d225ba44.css.map",
-    "main.c6c11dc2.js.map": "/susansteinbergpsychotherapist/static/js/main.c6c11dc2.js.map",
-    "488.cedd0b47.chunk.js.map": "/susansteinbergpsychotherapist/static/js/488.cedd0b47.chunk.js.map"
+    "main.css": "/static/css/main.d225ba44.css",
+    "main.js": "/static/js/main.97c2c57b.js",
+    "static/js/488.cedd0b47.chunk.js": "/static/js/488.cedd0b47.chunk.js",
+    "index.html": "/index.html",
+    "main.d225ba44.css.map": "/static/css/main.d225ba44.css.map",
+    "main.97c2c57b.js.map": "/static/js/main.97c2c57b.js.map",
+    "488.cedd0b47.chunk.js.map": "/static/js/488.cedd0b47.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d225ba44.css",
-    "static/js/main.c6c11dc2.js"
+    "static/js/main.97c2c57b.js"
   ]
 }
