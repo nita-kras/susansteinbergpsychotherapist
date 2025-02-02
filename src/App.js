@@ -11,7 +11,7 @@ import './App.css'; // Ensure the global styles are applied
 
 const App = () => {
   return (
-    <Router basename="/susansteinbergpsychotherapist">
+    <Router>
       <div className="app-container">
         <header className="header">
           <h1 className="name">Susan Steinberg</h1>
