@@ -14,6 +14,11 @@
     margin-left: auto;
     margin-right: auto;
   }
+
+  .paragraphSpacing {
+    margin-bottom: 20px; /* Adjust as needed */
+  }
+  
   
   .imageWrapper {
     margin-right: 20px; /* Add some space between image and text */
