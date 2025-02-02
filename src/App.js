@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Welcome from './components/Welcome';
@@ -7,7 +7,7 @@ import About from './components/About';
 import PracticeDescription from './components/PracticeDescription';
 import SessionDetails from './components/SessionDetails';
 import Contact from './components/Contact';
-import './App.css'; // Ensure the global styles are applied
+import './App.css';
 
 const App = () => {
   return (
