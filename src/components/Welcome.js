@@ -23,22 +23,22 @@ const Welcome = () => {
         <div className="textContent">
           <div className="trainingHeader">Welcome</div>
           <p className="paragraphSpacing">
-            Change is never easy but with the right help you can make your journey not only easier but more rewarding. 
+            Change is never easy but with the right help you can make your journey not only easier but more rewarding.
           </p>
           <p className="paragraphSpacing">
-            I am a psychotherapist offering in-person and online therapy in London NW3 in a peaceful garden setting in London. 
+            I am a psychotherapist offering in-person and online therapy in North West London in a peaceful garden setting.
           </p>
           <p className="paragraphSpacing">
-            My approach has a relational-developmental psychodynamic core, that is integrated with EMDR for patients who have experienced trauma and related concerns.
+            My approach has a relational-developmental psychodynamic core, that is integrated with EMDR for patients who have experienced trauma and related issues.
           </p>
           <p className="paragraphSpacing">
-            I work with adults of all ages who are trying to cope with a myriad of issues:
+            I work with adults of all ages who are trying to cope with a myriad of life’s problems:
           </p>
-          <p className="paragraphSpacing">Relationships, Anxiety, ADHD, Family, Illness, loss, to finding your identity.</p>
+          <p className="paragraphSpacing">Relationships, Anxiety, ADHD, Family, Illness, Loss, Depression to finding your identity.</p>
           <p className="paragraphSpacing">Trauma Issues: Acute, Chronic, or Complex Trauma (PTSD)</p>
-          <p className="paragraphSpacing">Long-term effects of growing up with mentally dysfunctional or unwell family</p>
+          <p className="paragraphSpacing">Long-term effects of growing up with mentally dysfunctional or unwell parents</p>
           <p className="paragraphSpacing">
-            If you are considering psychotherapy/counselling, please email me sds48@icloud.com to arrange an initial phone conversation or visit.
+            If you are considering psychotherapy, please email me sds48@icloud.com to arrange an initial phone conversation.
           </p>
         </div>
       </div>

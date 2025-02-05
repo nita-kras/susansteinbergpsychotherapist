@@ -9,28 +9,31 @@ const PracticeDescription = () => {
       {/* Additional Text Content */}
       <div style={styles.textContent}>
         <p>
-        First and foremost, I endeavour to develop a trusting relationship that will form the basis for a therapeutic alliance.
+          First and foremost, I endeavour to develop a trusting relationship that will form the basis for a therapeutic alliance.
         </p>
         <p>
-        Therapy is so personal that I prefer to meet face to face, especially at the start, as it gives each of us an opportunity to see what it feels like to be in a room together. If that’s geographically not possible, I’m happy to work on Zoom.
+          Therapy is so personal that I prefer to meet face to face, especially at the start, as it gives each of us an opportunity to see what it feels like to be in a room together. 
         </p>
         <p>
-        It can take a while to understand a patient’s issues and quite some time for most clients to feel safe with the therapist. 
+          If that’s not geographically possible, I’m happy to work on Zoom.
         </p>
         <p>
-        I will listen to you carefully and from time to time ask questions. You will be free to say whatever comes to your mind and I may comment when something seems pertinent. 
+          It can take a while to understand a patient’s issues and quite some time for most clients to feel safe with the therapist. 
         </p>
         <p>
-        I’m flexible and vary my practice to work most effectively with each person and employ the most constructive way to help them.
+          I will listen to you carefully and from time to time ask questions. You will be free to say whatever comes to your mind and I may comment when something seems pertinent. 
         </p>
         <p>
-        I have experience working with a mixture of patients from those who have trauma issues including mental and sexual abuse, PTSD and dysfunctional childhoods, to those struggling with relationships, anxiety, ADHD, finding your identity, loss, illness, addiction, and the issues of living in these complicated times.
+          I’m flexible and vary my practice to work most effectively with each person and employ the most constructive way to help them.
         </p>
         <p>
-        For clients with trauma-related issues, I integrate EMDR with psychodynamic talk therapy. 
+          I have experience working with a mixture of patients from those who have trauma issues including mental and sexual abuse, PTSD and dysfunctional childhoods, to those struggling with relationships, anxiety, ADHD, finding your identity, loss, illness, addiction, and the issues of living in these complicated times.
         </p>
         <p>
-        Clients with trauma are afflicted by disturbing symptoms that arise from unprocessed traumatic memories. The EMDR model of bilateral stimulation (eye movements) facilitates the processing of the maladaptive memories that overwhelm the mind and can interrupt a person's life and the developmental process.
+          For clients with trauma-related issues, I integrate EMDR with psychodynamic talk therapy. 
+        </p>
+        <p>
+          Clients with trauma are afflicted by disturbing symptoms that arise from unprocessed traumatic memories. The EMDR model of bilateral stimulation (eye movements) facilitates the processing of the maladaptive memories that overwhelm the mind and can interrupt a person's life and the developmental process.
         </p>
       </div>
     </div>

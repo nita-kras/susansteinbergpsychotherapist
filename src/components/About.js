@@ -10,10 +10,10 @@ const About = () => {
           I have had many years in training and experience in treating adults from all backgrounds for a wide range of issues.
         </p>
         <p>
-          I offer a quiet, safe, confidential space to talk about your feelings and concerns that brought you to seek therapy. 
+          I offer a quiet, safe, confidential space to talk about your feelings and concerns that brought you to seek therapy.
         </p>
         <p>
-          I trained at the Tavistock Clinic and hold a MSc in Psychodynamic psychotherapy which focuses on self-awareness and understanding of the influence of the past on the present.
+          I trained at the Tavistock Clinic and am an accredited psychodynamic therapist and hold a MSc in Psychodynamic psychotherapy which focuses on self-awareness and understanding of the influence of the past on the present.
         </p>
         <p>
           It helps people explore the present patterns in their behaviour and relationships and endeavours to find new approaches to manage and cope with all aspects of their life.
