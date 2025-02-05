@@ -40,6 +40,10 @@ const Welcome = () => {
           <p className="paragraphSpacing">
             If you are considering psychotherapy, please email me sds48@icloud.com to arrange an initial phone conversation.
           </p>
+          <p>Visit my website for further information{' '}
+            <a href="https://www.susansteinbergpsychotherapist.com" target="_blank" rel="noopener noreferrer">
+              www.susansteinbergpsychotherapist.com
+            </a></p>
         </div>
       </div>
     </div>
