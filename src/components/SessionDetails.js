@@ -25,20 +25,7 @@ const SessionDetails = () => {
         </p>
       </div>
 
-      <div style={styles.header}>About Me</div>
-      <div style={styles.textContent}>
-        <p>
-          I’ve always been interested in how people think and how they became the person I meet.
-        </p>
-        <p>
-          Before training to be an adult psychotherapist, I had a professional career as a documentary filmmaker where I met and worked with people from all over the world. 
-        </p>
-        <p>
-          That experience made me particularly sensitive to the lives and struggles of people from various backgrounds. It also provided an understanding of people working in the arts who may have specific issues in devising ways to survive outside the boundaries of more conventional society and in finding their own voice.
-        </p>
-      </div>
 
-      {/* Pricing & Availability Header */}
       <div style={styles.header}>Pricing & Availability</div>
 
       {/* Pricing Information Text */}
